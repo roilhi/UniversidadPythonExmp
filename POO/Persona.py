@@ -12,6 +12,7 @@ class Persona:
         print(f'Persona: {self.nombre} {self.apellido} {self.edad} {self.valores} {self.terminos}')
 # self equivale a this en java, C#
 persona1 = Persona('Juan','Perez',28, '44423364', 2,3,5, m='manzana', p='pera')
+
 Persona.mostrarDetalle(persona1)
 # Es posible agregar atributos al objeto, sin
 #embargo no se comparten al otro objeto
